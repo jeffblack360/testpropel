@@ -1,0 +1,10 @@
+propel:
+    database:
+        connections:
+            default:
+                adapter: mysql
+                dsn: mysql:host=localhost;dbname=petcatalog
+                user: root
+                password: nbuser
+                settings:
+                    charset: utf8
